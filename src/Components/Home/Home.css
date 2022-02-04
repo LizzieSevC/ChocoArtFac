@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+    @font-face {
+        font-family: Madame;
+        src: url(/public/Fonts/Madame.ttf);
+    }
+
+    @font-face {
+        font-family: BookAntiqua;
+        src: url(/public/Fonts/BookAntiqua.ttf);
+    }
+
+    @font-face {
+        font-family: BebasNeueBold;
+        src: url(/public/Fonts/BebasNeueBold.ttf);
+    }
+
+
+h1{
+    text-align: center;
+    margin: 4vw 0 4vw 0;
+    font-family: Madame;
+    letter-spacing: 2px;
+    font-size: 7vw;
+}
+
+h2{
+    font-family: BebasNeueBold;
+}
+
+p{
+    font-family: BookAntiqua;
+}

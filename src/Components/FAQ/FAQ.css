@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+.questions{
+margin: 5vw 0 1.5vw 6vw;
+}
+
+.questionText{
+margin: 0 5vw 0vw 4vw;
+}
+
+.questionText1{
+    margin: 5vw;
+    text-align: center;
+    }
