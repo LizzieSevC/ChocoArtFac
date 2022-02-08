@@ -1,7 +1,7 @@
 import React from 'react';
 import './FAQ.css'
 
-export function FAQ(){
+export function Chocopreguntas(){
     return(
 <>
 

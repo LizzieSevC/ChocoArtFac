@@ -2,12 +2,14 @@ import React from 'react';
 import { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom'; 
 import './NavBar.css';
+import { DropdownMenu, NavItem } from './Dropdown Menu/Dropdown';
 import { Menu, MenuItem, MenuItemLink, Burger } from "./NavBarElements";
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaCartPlus } from 'react-icons/fa';
+
+
 
 
 export function NavBar() {
-
     const [showBurgerMenu, setshowBurgerMenu] = useState(false);
 
 return (
@@ -29,11 +31,15 @@ return (
             </MenuItemLink>
             </MenuItem>
             <MenuItem>
-            <MenuItemLink onClick={ () => setshowBurgerMenu(!showBurgerMenu) }>
-                <div className='linkContainer'>
-                <Link to='/' className='link'> Productos </Link>
-                </div>
-            </MenuItemLink>
+
+<MenuItemLink>
+<NavItem>
+    
+<DropdownMenu/>
+
+</NavItem> 
+</MenuItemLink>  
+
             </MenuItem>
             <MenuItem>
             <MenuItemLink onClick={ () => setshowBurgerMenu(!showBurgerMenu) }>
@@ -45,7 +51,7 @@ return (
             <MenuItem>
             <MenuItemLink onClick={ () => setshowBurgerMenu(!showBurgerMenu) }>
                 <div className='linkContainer'>
-                <Link to='/FAQ' className='link'> ChocoPreguntas </Link>
+                <Link to='/Chocopreguntas' className='link'> ChocoPreguntas </Link>
                 </div>
             </MenuItemLink>
             </MenuItem>
@@ -56,9 +62,15 @@ return (
                 </div>
             </MenuItemLink>
             </MenuItem>
+            <MenuItem>
+            <MenuItemLink onClick={ () => setshowBurgerMenu(!showBurgerMenu) }>
+                <div className='linkContainer'>
+                <Link to='/TuCarrito' className='link'> <FaCartPlus className="shopingCartIcon"/> </Link>
+                </div>
+            </MenuItemLink>
+            </MenuItem>
         </Menu>
     </div>
-
 
 
 
