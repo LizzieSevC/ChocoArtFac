@@ -11,7 +11,9 @@
   cursor: pointer;
 }
 
-
+.productImage{
+  width: 10vw;
+}
 
 
 /* a {
