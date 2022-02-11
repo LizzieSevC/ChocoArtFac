@@ -5,12 +5,14 @@ export const Menu = styled.ul`
     width: 100%;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
     list-style: none;
     background-color: RGB(53, 23, 14);
     z-index: 3;
 
     @media screen and (max-width: 960px) {
     background-color: RGB(53, 23, 14);
+    text-decoration: none;
     position: absolute;
     top: 25vw;
     left: ${({ open }) => (open ? "0" : "-100%")};
@@ -32,10 +34,11 @@ export const MenuItem = styled.li`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
     }
 `;
 
-export const MenuItemLink = styled.a`
+export const MenuItemLink = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +50,7 @@ export const MenuItemLink = styled.a`
     color:  RGB(239, 192, 144);
     cursor: pointer;
     transition: 1s all ease;
-
+    
     &:hover {
     text-shadow: 0 0 5px black, 0 0 5px RGB(244, 149, 32), 0 0 5px RGB(244, 149, 32), 0 0 5px RGB(244, 149, 32), 0 0 5px RGB(244, 149, 32), 0 0 5px RGB(244, 149, 32);
     transition: 0.2s all ease;
@@ -61,6 +64,7 @@ display: none;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    text-decoration: none;
     cursor: pointer;
     color:  RGB(239, 192, 144);
     }

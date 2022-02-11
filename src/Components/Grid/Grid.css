@@ -7,11 +7,14 @@
 .grid{
     display: grid;
     height: 50vw;
+    width: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
     "productGrid1 descriptionGrid1"
-    "descriptionGrid2 productGrid2";
+    "descriptionGrid2 productGrid2"
+    "productGrid3 descriptionGrid3"
+    "descriptionGrid4 productGrid4";
     text-align: center;
 }
 
@@ -23,14 +26,33 @@
     grid-area: productGrid2;
 }
 
+.productGrid3{
+    grid-area: productGrid3;
+}
+
+.productGrid4{
+    grid-area: productGrid4;
+}
+
 .descriptionGrid1{
     grid-area: descriptionGrid1;
-    margin-top: 2vw;
+height: 45vw;
 }
 
 .descriptionGrid2{
     grid-area: descriptionGrid2;
-    margin-top: 2vw;
+/*     margin-top: 2vw;
+    height: 45vw; */
+}
+
+#productImgContainer{
+    height: 45vw;
+}
+
+/* all the p's in the grid */
+
+div p{
+    margin-top: 5vw;
 }
 
 /*Imagen de los productos en el grid*/
@@ -43,11 +65,11 @@
 
 /*Textos descriptivos dentro del grid*/
 .titleGrid{
-
+margin: 3vw 0vw 3vw 0vw;
 }
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
     .grid{
         display: grid;
         height: 50vw;
@@ -57,6 +79,32 @@
         "productGrid1"
         "descriptionGrid1"
         "productGrid2"
-        "descriptionGrid2";
+        "descriptionGrid2"
+        "productGrid3"
+        "descriptionGrid3"
+        "productGrid4"
+        "descriptionGrid4";
     }
+
+    .imageGrid{
+width: 70%;
+    }
+
+.titleGrid{
+    font-size: 7vw;
 }
+
+.pageTitle{
+    font-size: 10vw;
+}
+
+    div p{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 4vw;
+    }
+
+}
+
+
+

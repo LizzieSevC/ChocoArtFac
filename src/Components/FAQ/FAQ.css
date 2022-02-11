@@ -16,3 +16,22 @@ margin: 0 5vw 0vw 4vw;
     margin: 5vw;
     text-align: center;
     }
+
+@media only screen and (max-width: 600px){
+    .questionText1{
+        margin: 5vw;
+        text-align: center;
+        font-size: 4.5vw;
+    }
+    .questions{
+        margin: 7vw 2vw 3vw 6vw;
+        font-size: 6vw;
+        text-align: center;
+    }
+        
+    .questionText{
+        margin: 0 5vw 7vw 4vw;
+        font-size: 4vw;
+        text-align: center;
+    }
+}

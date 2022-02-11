@@ -34,7 +34,7 @@ return (
 
 <MenuItemLink>
 <NavItem>
-    
+
 <DropdownMenu/>
 
 </NavItem> 
@@ -72,18 +72,6 @@ return (
         </Menu>
     </div>
 
-
-
-{/* <header>
-    <Burguer/>
-    <ul className='menuList'>
-        <li className='menuItem'><Link to='/' className='link'> Inicio </Link></li>
-        <li className='menuItem'> Productos </li>
-        <li className='menuItem'><Link to='/AboutUs' className='link'> Nosotros </Link></li>
-        <li className='menuItem'><Link to='/FAQ' className='link'> ChocoPreguntas </Link></li>
-        <li className='menuItem'><Link to='/ContactUs' className='link'> Contáctanos </Link></li>
-    </ul>
-</header> */}
     <div>
     <Outlet/> {/* structure! renders the routes and it's childrens */}
     </div>

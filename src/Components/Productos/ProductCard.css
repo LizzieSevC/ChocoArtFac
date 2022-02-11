@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+.productCard{
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin: 5vw;
+}
+
+.cardContainer{
+    margin: 5vw;
+    text-align: center;
+}
+
+.cardContainerText{
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+.productImage{
+    width: 25vw;
+    height: 28vw;
+    margin: 1vw 0vw 1vw 0vw;
+}
+
+.buttonAgregar{
+    color: RGB(53, 23, 14);
+    background-color: RGB(244, 149, 32);
+    margin: 1vw;
+    font-family: BookAntiqua;
+    font-size: 2.5vw;
+    padding: 1vw 3vw 1vw 3vw;
+    cursor: pointer;
+    border-width: 0;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.buttonAgregar:active{
+    transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+}

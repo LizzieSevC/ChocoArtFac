@@ -1,17 +1,16 @@
 import React from "react";
 import ProductItem from "../Shopping Cart/ProductItem";
-import { Bombones } from "../Data/Bombones";
-import './ProductCard.css';
+import { Fresas } from "../Data/Fresas";
 
 
-export function BombonesF() {
+export function FresasF() {
     return(
         <>
 
-        <h1> Bombones </h1>
+        <h1> Fresas </h1>
 
 <article className="productCard">
-{Bombones.products.map((product) => (
+{Fresas.products.map((product) => (
 <ProductItem key={product.id}data={product}/>
 ))}
 </article> 

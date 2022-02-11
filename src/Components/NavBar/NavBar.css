@@ -48,6 +48,7 @@ justify-content: center;
 @media screen and (max-width: 960px) {
     .linkContainer a:link{
         font-size: 5vw;
+        text-decoration: none;
     }
 }
 
@@ -61,7 +62,8 @@ justify-content: center;
 
 @media screen and (max-width: 960px) {
 .linkContainer a:visited{
-        font-size: 5vw;
+    font-size: 5vw;
+    text-decoration: none;
     }
 }
 
@@ -70,49 +72,5 @@ width: 60vw;
 }
 
 
-
-/* 
-header {
-    align-items: center;
-    background-color: RGB(53, 23, 14);
-    display: flex;
-    justify-content: space-evenly;
-    height: 10vw;
-    width: 100vw;
-    }
-    
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-    }
-    
-li{
-    text-decoration: none;
-    font-size: 3vw;
-    font-weight: bold;
-    color:  RGB(239, 192, 144);
-    }
-    
-li:hover{ 
-    text-shadow: 0 0 5px black, 0 0 5px RGB(244, 149, 32), 0 0 5px RGB(244, 149, 32), 0 0 5px RGB(244, 149, 32), 0 0 5px RGB(244, 149, 32), 0 0 5px RGB(244, 149, 32);
-    font-size: 3vw;
-    }
-
-li a:link{
-    text-decoration: none;
-    font-size: 3vw;
-    font-weight: bold;
-    color:  RGB(239, 192, 144);
-}
-
-li a:visited{
-    text-decoration: none;
-    font-size: 3vw;
-    font-weight: bold;
-    color:  RGB(239, 192, 144);
-}
- */
 
 

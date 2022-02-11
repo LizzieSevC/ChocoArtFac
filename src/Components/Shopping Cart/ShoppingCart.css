@@ -11,8 +11,9 @@
   cursor: pointer;
 }
 
-.productImage{
-  width: 10vw;
+.cardCart{
+  text-align: center;
+  margin: 4vw;
 }
 
 
